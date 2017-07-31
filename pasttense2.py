@@ -9,6 +9,6 @@ def to_simple_past_tense(verb):
 past_verbs = [ to_simple_past_tense(verb) for verb in present_verbs ]
 print past_verbs
 
-#or just
+#or:
 #print [ to_simple_past_tense(verb) for verb in present_verbs ]
 #print type(past_verbs)
